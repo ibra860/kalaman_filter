@@ -35,15 +35,15 @@ Eigen::MatrixXd k;       // Kalman Gain
 ```
 you can change this function in the hpp file to any other input input
 ```cpp
-        Eigen::VectorXd y_axis(Eigen::VectorXd& x_vector){
+Eigen::VectorXd y_axis(Eigen::VectorXd& x_vector){
 
-            int size = x_vector.size();
-            Eigen::VectorXd y(size); // Initialize y with the same size as x_vector
-            for(int i = 0; i < size ; i++){
-                y[i] = sin(x_vector[i]);
-            }
-            return y;
+  int size = x_vector.size();
+    Eigen::VectorXd y(size); // Initialize y with the same size as x_vector
+     for(int i = 0; i < size ; i++){
+      y[i] = sin(x_vector[i]);
         }
+   return y;
+}
 ```
 
 
