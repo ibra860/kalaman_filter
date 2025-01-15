@@ -6,7 +6,7 @@ This repository contains a simple implementation of the Kalman Filter, designed 
 
 Below are the mathematical equations that drive the Kalman Filter:
 
-![Alt text]()
+![Alt text](https://github.com/ibra860/kalaman_filter/blob/main/image.png)
 
 ## System Matrices
 
