@@ -63,17 +63,3 @@ Ensure you have the following tools installed:
 
 - Modify the system matrices (`A`, `B`, `H`, `Q`, `R`) and initial conditions (`x`, `sigma`) in the code to match your system's requirements.
 - Run the compiled executable to observe the filter's performance on your input data.
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests to enhance this implementation.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Acknowledgments
-
-- The Eigen library for providing efficient matrix operations.
-- The open-source community for guidance and inspiration.
--
